@@ -3,12 +3,13 @@
 
 import React from 'react'
 
-import HFTitle from '../components/hf-title/HFTitle'
+// import HFTitle from '../components/hf-title/HFTitle'
+import Spreadsheet from '../components/spreadsheet/Spreadsheet'
 
 export default function Home() {
   return (
-    <div className="container">
-      <HFTitle />
+    <div id={'container'}>
+      <Spreadsheet />
     </div>
   )
 }
